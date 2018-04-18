@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Easy Encrypt</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_help">help</string>
+    <string name="action_info">info</string>
+    <string name="key">Key :</string>
+    <string name="enter_encryption_decryption_key">Enter encryption/decryption Key</string>
+    <string name="encrypt">Encrypt</string>
+    <string name="decrypt">Decrypt</string>
+    <string name="decrypted_encrypted_text_will_appear_here">Decrypted/Encrypted text will appear here</string>
+    <string name="algorithm">Algorithm :</string>
+    <string name="enter_text_to_be_encrypted_decrypted">Enter text to be encrypted/decrypted</string>
+    <string name="aes">AES</string>
+    <string name="des">DES</string>
+    <string name="select">SELECT ALGORITHM</string>
+    <string name="ok_string">OK</string>
+</resources>

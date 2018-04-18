@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#fff"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/info_container"
+        >
+
+        <ImageView
+            android:id="@+id/icon_logo"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/icon_launcher" />
+
+        <TextView
+            android:id="@+id/encryptVersion"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/icon_logo"
+            android:layout_marginTop="40dp"
+            android:gravity="center"
+            android:text="EASY ENCRYPT 1.0"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/developer"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/encryptVersion"
+            android:layout_centerHorizontal="true"
+            android:layout_toRightOf="@+id/icon_logo"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:text="by - edetebenezer"
+            android:textColor="#000"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/dialogButtonOK"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/icon_logo"
+            android:layout_centerHorizontal="true"
+            android:textSize="17sp"
+            android:layout_marginTop="10dp"
+            android:text="@string/ok_string" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/help_container"
+        android:visibility="gone"
+        >
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/info_help"
+            />
+    </RelativeLayout>
+</RelativeLayout>
