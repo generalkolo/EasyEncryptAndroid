@@ -14,4 +14,4 @@ Please ensure that the install from unknown sources is enabled from your mobile 
 
 Follow the image below with reference to the numbers placed inside the arrows.
 
-https://github.com/generalkolo/EasyEncryptAndroid/blob/master/images/info_help.png
+![](https://github.com/generalkolo/EasyEncryptAndroid/blob/master/images/info_help.png)
